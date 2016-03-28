@@ -168,3 +168,26 @@ a {
 .left-container  img{
 	padding-right: 15px;
 }
+
+/* MEDIA QUERY MOBILE */
+
+
+@media only screen and (min-width: 768px) {
+    body {
+    	background-color:green;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    body {
+    	background-color:tomato;
+    }
+}
+
+@media only screen and (max-width: 767px) and (orientation: portrait) {
+    body {
+    	background-color:navy-blue;
+    }
+}
+
+
